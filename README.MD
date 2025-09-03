@@ -23,8 +23,8 @@ Extend agents with pro-code tools such as Azure AI Foundry and Visual Studio for
 
 ### 💻 Technologies Used
 
-1.
-1.
+1. Microsoft Copilot Studio
+1. Azure AI Foundry
 1.
 
 ### 🔗 Session Resources
