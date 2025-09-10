@@ -39,10 +39,6 @@ Extend agents with pro-code tools such as Azure AI Foundry and Visual Studio for
 | Azure AI Foundry Community Discord | [![Microsoft Azure AI Foundry Discord](https://dcbadge.limes.pink/api/server/ByRwuEEgH4)](https://discord.com/invite/ByRwuEEgH4)| Connect with the Azure AI Foundry Community! |
 | Learn at AI Tour | [https://aka.ms/LearnAtAITour](https://aka.ms/LearnAtAITour?ocid=AITour26_resourcecenter_cnl) | Continue learning on Microsoft Learn |
 
-### 🌐 Multi-Language Support
-
-*languages will go here when its time to localize*
-
 ## Content Owners
 
 
