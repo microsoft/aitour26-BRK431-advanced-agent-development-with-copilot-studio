@@ -1,47 +1,44 @@
 <p align="center">
-<img src="img/Banner-MS-AI-Tour-26.png" alt="decorative banner" width="1200"/>
-</p>
+<img src="img/Banner-MS-AI-Tour-26.png" alt="decorative banner" width="1200"/></p>
 
 # [Microsoft AI Tour 2026](https://aitour.microsoft.com)
 
 ## 🔥BRK431: Advanced Agent Development with Copilot Studio
 
-If you will be delivering this session, check the [session-delivery-sources](./session-delivery-resources/) folder for slides, scripts, and other resources.
-
 ### Session Description
-Unlock the full potential of Microsoft Copilot Studio by diving deep into advanced agent development. This session is designed for makers and developers ready to move beyond the basics and orchestrate intelligent, autonomous agents at scale. Whether you're streamlining operations, enhancing customer service, or transforming internal processes, this session will equip you with the tools and strategies to build agents that deliver real business impact.
 
+This session dives into advanced agent development with Microsoft Copilot Studio. It's designed for makers and developers ready to move beyond the basics and orchestrate intelligent, autonomous agents at scale. Whether you're streamlining operations, enhancing customer service, or transforming internal processes, this session will equip you with the tools and strategies to build agents that deliver real business impact.
 
 ### 🧠 Learning Outcomes
 
-By the end of this session, learners will be able to:
+By the end of this session, learners understand how to:
 
 - Build agents that reason, plan, and act across complex workflows using generative orchestration.
 - Leverage multi-agent collaboration to drive real-time decision-making and automation.
 - Integrate advanced capabilities like deep knowledge grounding, enhanced analytics, and no-code testing.
-Extend agents with pro-code tools such as Azure AI Foundry and Visual Studio for full-stack customization.
+- Extend agents with pro-code tools such as Azure AI Foundry and Visual Studio for full-stack customization.
 
 ### 💻 Technologies Used
 
 1. Microsoft Copilot Studio
 1. Azure AI Foundry
-1.
 
 ### 🔗 Session Resources
-| Resources          | Links                             | Description        |
-|:-------------------|:----------------------------------|:-------------------|
-| Additional Resources for this session | [https://learn.microsoft.com](https://learn.microsoft.com?ocid=AITour26_resourcecenter_cnl) | Links specific to this session |
+
+| Resource | Path |
+|---|---:|
+| Presenter Guide (full) | [session-delivery-resources/readme.md](session-delivery-resources/readme.md)
+| Slides | [BRK431_Presentation.pptx](https://aka.ms/AAxv80q) |
+| TTT Video | [BRK431-Full-Session.mp4](https://aka.ms/AAxx2ub) |
 
 ### 📚 Continued Learning Resources
+
 | Resources          | Links                             | Description        |
 |:-------------------|:----------------------------------|:-------------------|
+| Copilot Studio Resources | [https://aka.ms/copilotstudio-getstarted](https://aka.ms/copilotstudio-getstarted)
 | AI Tour 2026 Resource Center | [https://aka.ms/AITour26-Resource-Center](https://aka.ms/AITour26-Resource-Center?ocid=AITour26_resourcecenter_cnl) | Links to all repos for AI Tour 26 Sessions |
 | Azure AI Foundry Community Discord | [![Microsoft Azure AI Foundry Discord](https://dcbadge.limes.pink/api/server/ByRwuEEgH4)](https://discord.com/invite/ByRwuEEgH4)| Connect with the Azure AI Foundry Community! |
 | Learn at AI Tour | [https://aka.ms/LearnAtAITour](https://aka.ms/LearnAtAITour?ocid=AITour26_resourcecenter_cnl) | Continue learning on Microsoft Learn |
-
-### 🌐 Multi-Language Support
-
-*languages will go here when its time to localize*
 
 ## Content Owners
 
@@ -58,9 +55,9 @@ Extend agents with pro-code tools such as Azure AI Foundry and Visual Studio for
   
 </tr></table>
 
-## 
+##
 
-## Responsible AI 
+## Responsible AI
 
 Microsoft is committed to helping our customers use our AI products responsibly, sharing our learnings, and building trust-based partnerships through tools like Transparency Notes and Impact Assessments. Many of these resources can be found at [https://aka.ms/RAI](https://aka.ms/RAI).
 Microsoft’s approach to responsible AI is grounded in our AI principles of fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability.
@@ -71,4 +68,4 @@ The recommended approach to mitigating these risks is to include a safety system
 
 Another aspect to take into account is the overall application performance. With multi-modal and multi-models applications, we consider performance to mean that the system performs as you and your users expect, including not generating harmful outputs. It's important to assess the performance of your overall application using [Performance and Quality and Risk and Safety evaluators](https://learn.microsoft.com/azure/ai-studio/concepts/evaluation-metrics-built-in). You also have the ability to create and evaluate with [custom evaluators](https://learn.microsoft.com/azure/ai-studio/how-to/develop/evaluate-sdk#custom-evaluators).
 
-You can evaluate your AI application in your development environment using the [Azure AI Evaluation SDK](https://microsoft.github.io/promptflow/index.html). Given either a test dataset or a target, your generative AI application generations are quantitatively measured with built-in evaluators or custom evaluators of your choice. To get started with the azure ai evaluation sdk to evaluate your system, you can follow the [quickstart guide](https://learn.microsoft.com/azure/ai-studio/how-to/develop/flow-evaluate-sdk). Once you execute an evaluation run, you can [visualize the results in Azure AI Foundry portal ](https://learn.microsoft.com/azure/ai-studio/how-to/evaluate-flow-results).
+You can evaluate your AI application in your development environment using the [Azure AI Evaluation SDK](https://microsoft.github.io/promptflow/index.html). Given either a test dataset or a target, your generative AI application generations are quantitatively measured with built-in evaluators or custom evaluators of your choice. To get started with the azure ai evaluation sdk to evaluate your system, you can follow the [quickstart guide](https://learn.microsoft.com/azure/ai-studio/how-to/develop/flow-evaluate-sdk). Once you execute an evaluation run, you can [visualize the results in Azure AI Foundry portal](https://learn.microsoft.com/azure/ai-studio/how-to/evaluate-flow-results).
