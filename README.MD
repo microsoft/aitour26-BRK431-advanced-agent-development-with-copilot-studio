@@ -29,7 +29,7 @@ By the end of this session, learners understand how to:
 |---|---:|
 | Presenter Guide (full) | [session-delivery-resources/readme.md](session-delivery-resources/readme.md)
 | Slides | [BRK431_Presentation.pptx](https://aka.ms/AAxv80q) |
-| TTT Video | [BRK431-Full-Session.mp4](https://aka.ms/AAxx2ub) |
+| Full Session Recording | [Recording](https://youtu.be/VWcpskVz2ZE) |
 
 ### 📚 Continued Learning Resources
 
