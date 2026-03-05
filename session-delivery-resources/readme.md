@@ -13,8 +13,8 @@ Prior to delivering the workshop please:
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
 | Slide Deck      |  [Presentation](https://aka.ms/AAxv80q)  | Presentation slides for this session with presenter notes and embedded demo video |
-| Session Delivery Video     |  [Video](https://aka.ms/AAxx2ub) | Video recording of the full session delivery |
-| Demo Source Code    |  [Demo Solution](https://youtu.be/VWcpskVz2ZE) | Solution File of the Demos |
+| Session Delivery Video     |  [Video](https://www.youtube.com/watch?v=FQfjBTR7nsQ) | Video recording of the full session delivery |
+| Demo Source Code    |  [Demo Solution](/docs/ZavaApp_1_0_0_4.zip) | Solution File of the Demos |
 
 ## 🚀Get Started
 
@@ -38,11 +38,13 @@ The session contains a mixture of slides and 5 live demos (also provided as reco
 ### 🏋️Preparation
 
 To prepare to deliver the demos in this session, perform the following steps:
+
 - Ensure you have access to an M365 Tenant which has Copilot Studio licensing
-- Install the [Zava solution file](/src/Zava_1_0_0_1.zip) in your Power Platform environment. This contains the agents and the underlying Dataverse tables that you need for the demos
+- Install the [Zava solution file](/docs/ZavaApp_1_0_0_4.zip) in your Power Platform environment. This contains the agents and the underlying Dataverse tables that you need for the demos
 - Create sample data in the installed Dataverse tables
 - Download the [sample files](/src/samplefiles/) so you can reference them in the agents
-- Review the demo videos below to ensure you understand the flow of the demos
+- Review [demo 1 script](/docs/01-demo/01-step.md) and corresponding video
+- Review [demo 2 script](/docs/02-demo/02-step.md) and corresponding video
 
 ### 🖥️Demos
 
@@ -50,10 +52,8 @@ All demos have been recorded. Please review and go through the steps above if yo
 
 | Demo | Description |
 |---|---|
-| [Demo 1 - Autonomous Agent](https://assetsmanagement952e.blob.core.windows.net/assets/BRK431%20Advanced%20agent%20development%20with%20Copilot%20Studio/BRK431_Demo1_Autonomous_V1.0.mp4) | Demo showing creating an autonomous agent that provides proactive low inventory alerts |
-| [Demo 2 - Deep Reasoning](https://assetsmanagement952e.blob.core.windows.net/assets/BRK431%20Advanced%20agent%20development%20with%20Copilot%20Studio/BRK431_Demo2_DeepReasoning_V1.0.mp4) | Demo showing the difference in a market analysis output with and without deep reasoning applied. |
-| [Demo 3 - Multi Agent](https://assetsmanagement952e.blob.core.windows.net/assets/BRK431%20Advanced%20agent%20development%20with%20Copilot%20Studio/BRK431_Demo3_MultiAgent_V1.0.mp4) | Demo showing how to build a multi-agent supply chain management scenario |
-| [Demo 4 - Agent Flow](https://assetsmanagement952e.blob.core.windows.net/assets/BRK431%20Advanced%20agent%20development%20with%20Copilot%20Studio/BRK431_Demo4_AgentFlow_V1.0.mp4) | Demo showing an Agent Flow that handles routing and classifying customer feedback |
-| [Demo 5 - Testing](https://assetsmanagement952e.blob.core.windows.net/assets/BRK431%20Advanced%20agent%20development%20with%20Copilot%20Studio/BRK431_Demo5_Testing_V1.0.mp4) | Demo showing testing and debugging the inventory updater agent throwing an error|
+| [Demo 1 - Autonomous Agent](/docs/01-demo/Advanced%20Agent%20Dev%20with%20MCS%20-%20Demo%201.mp4) | Demo showing creating an autonomous agent with MCP integration, deep reasoning and code interpreter |
+| [Demo 2 - Multi-Agent](/docs/02-demo/Advanced%20Agent%20Dev%20with%20MCS%20-%20Demo%202.mp4) | Demo showing a multi-agent scenario with connected and child agents, agent flow integration, prompt integration and CUA integration |
+
 
 For each demo keep live interactions short and reserve complex changes for recorded segments.
