@@ -14,7 +14,7 @@ Prior to delivering the workshop please:
 |-------------------|----------------------------------|-------------------|
 | Slide Deck      |  [Presentation](https://aka.ms/AAxv80q)  | Presentation slides for this session with presenter notes and embedded demo video |
 | Session Delivery Video     |  [Video](https://www.youtube.com/watch?v=FQfjBTR7nsQ) | Video recording of the full session delivery |
-| Demo Source Code    |  [Demo Solution](/docs/ZavaApp_1_0_0_4.zip) | Solution File of the Demos |
+| Demo Source Code    |  [Demo Solution](/docs/ZavaAppShareable_1_0_0_2.zip) | Solution File of the Demos |
 
 ## 🚀Get Started
 
