@@ -40,7 +40,7 @@ The session contains a mixture of slides and 5 live demos (also provided as reco
 To prepare to deliver the demos in this session, perform the following steps:
 
 - Ensure you have access to an M365 Tenant which has Copilot Studio licensing
-- Follow the [Environment Setup Guide](/src/README.md) to create your environment, import the Zava solution, and load sample data
+- Follow the [Environment Setup Guide](/src/readme.md) to create your environment, import the Zava solution, and load sample data
 - Download the [sample files](/src/samplefiles/) so you can reference them in the agents
 - Review [demo 1 script](/docs/01-demo/01-step.md) and corresponding video
 - Review [demo 2 script](/docs/02-demo/02-step.md) and corresponding video

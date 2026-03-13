@@ -28,7 +28,7 @@ By the end of this session, learners understand how to:
 | Resource | Path |
 |---|---:|
 | Presenter Guide (full) | [session-delivery-resources/readme.md](session-delivery-resources/readme.md)
-| Environment Setup & Data Import | [src/README.md](src/README.md) |
+| Environment Setup & Data Import | [src/README.md](src/readme.md) |
 | Slides | [BRK431_Presentation.pptx](https://www.youtube.com/watch?v=FQfjBTR7nsQ) |
 | Full Session Recording | [Recording](https://youtu.be/VWcpskVz2ZE) |
 
