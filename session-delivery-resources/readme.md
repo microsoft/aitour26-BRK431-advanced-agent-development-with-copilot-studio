@@ -14,7 +14,7 @@ Prior to delivering the workshop please:
 |-------------------|----------------------------------|-------------------|
 | Slide Deck      |  [Presentation](https://aka.ms/AAxv80q)  | Presentation slides for this session with presenter notes and embedded demo video |
 | Session Delivery Video     |  [Video](https://www.youtube.com/watch?v=FQfjBTR7nsQ) | Video recording of the full session delivery |
-| Demo Source Code    |  [Demo Solution](/docs/ZavaAppShareable_1_0_0_2.zip) | Solution File of the Demos |
+| Environment Setup   |  [Setup Guide](/src/README.md) | Environment setup, solution import, and data import instructions |
 
 ## 🚀Get Started
 
@@ -40,8 +40,7 @@ The session contains a mixture of slides and 5 live demos (also provided as reco
 To prepare to deliver the demos in this session, perform the following steps:
 
 - Ensure you have access to an M365 Tenant which has Copilot Studio licensing
-- Install the [Zava solution file](/docs/ZavaApp_1_0_0_4.zip) in your Power Platform environment. This contains the agents and the underlying Dataverse tables that you need for the demos
-- Create sample data in the installed Dataverse tables
+- Follow the [Environment Setup Guide](/src/README.md) to create your environment, import the Zava solution, and load sample data
 - Download the [sample files](/src/samplefiles/) so you can reference them in the agents
 - Review [demo 1 script](/docs/01-demo/01-step.md) and corresponding video
 - Review [demo 2 script](/docs/02-demo/02-step.md) and corresponding video

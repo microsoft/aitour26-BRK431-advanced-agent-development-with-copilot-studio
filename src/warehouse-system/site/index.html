@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZavaWarehouse - Delivery Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Login Screen -->
+    <div id="loginScreen" class="login-screen">
+        <div class="login-box">
+            <div class="login-header">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Crect fill='%23337ab7' width='60' height='60'/%3E%3Cpath fill='%23fff' d='M10 15h40v6H10zm0 12h40v6H10zm0 12h40v6H10z'/%3E%3C/svg%3E" alt="ZavaWarehouse Logo">
+                <h2>ZavaWarehouse System</h2>
+                <p>Management Login Portal</p>
+            </div>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Enter username" required autofocus>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter password" required autocomplete="current-password" aria-label="Enter password" class="form-control">
+                </div>
+                <div id="loginError" class="login-error" style="display: none;"></div>
+                <button type="submit" class="btn-primary btn-login">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="container" id="mainContainer" style="display: none;">
+        <header>
+            <div class="logo">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50'%3E%3Crect fill='%23337ab7' width='50' height='50'/%3E%3Cpath fill='%23fff' d='M10 15h30v5H10zm0 10h30v5H10zm0 10h30v5H10z'/%3E%3C/svg%3E" alt="ZavaWarehouse Logo">
+                <h1>ZavaWarehouse Management System</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#new-delivery" class="active">New Delivery</a></li>
+                    <li><a href="#tasks">View Tasks</a></li>
+                    <li><a href="#reports">Reports</a></li>
+                    <li><a href="#logout" onclick="logout(); return false;" style="float: right;">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="new-delivery-section" class="panel">
+                <h2>Create New Delivery</h2>
+                <form id="deliveryForm">
+                    <div class="form-group">
+                        <label for="deliveryId">Delivery ID:</label>
+                        <input type="text" id="deliveryId" name="deliveryId" readonly>
+                        <button type="button" onclick="generateDeliveryId()" class="btn-small">Generate ID</button>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="supplier">Delivery Note:</label>
+                        <textarea id="supplier" name="supplier" placeholder="Enter delivery note details" rows="3" required></textarea>
+                    </div>
+
+                    <h3>Line Items</h3>
+                    <div id="lineItems">
+                        <div class="line-item">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label>Product:</label>
+                                    <input type="text" name="product[]" placeholder="Product name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Units:</label>
+                                    <input type="number" name="units[]" placeholder="0" min="1" required>
+                                </div>
+                                <button type="button" class="btn-remove" onclick="removeLineItem(this)">Remove</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="button" onclick="addLineItem()" class="btn-secondary">+ Add Line Item</button>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn-primary" aria-label="Create delivery and generate warehouse tasks">Create Delivery</button>
+                        <button type="reset" class="btn-secondary" aria-label="Clear all form fields">Clear Form</button>
+                    </div>
+                </form>
+            </section>
+
+            <section id="tasks-section" class="panel" style="display: none;">
+                <h2>Warehouse Tasks</h2>
+                <div class="filter-bar">
+                    <label>
+                        <input type="radio" name="filter" value="all" checked onchange="filterTasks('all')"> All Tasks
+                    </label>
+                    <label>
+                        <input type="radio" name="filter" value="pending" onchange="filterTasks('pending')"> Pending
+                    </label>
+                    <label>
+                        <input type="radio" name="filter" value="in-progress" onchange="filterTasks('in-progress')"> In Progress
+                    </label>
+                    <label>
+                        <input type="radio" name="filter" value="completed" onchange="filterTasks('completed')"> Completed
+                    </label>
+                </div>
+
+                <div id="tasksList">
+                    <p class="no-data">No tasks created yet. Create a delivery to generate tasks.</p>
+                </div>
+            </section>
+
+            <section id="reports-section" class="panel" style="display: none;">
+                <h2>Reports & Statistics</h2>
+                <div class="stats-container">
+                    <div class="stat-box">
+                        <h3>Total Deliveries</h3>
+                        <p class="stat-number" id="totalDeliveries">0</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>Total Tasks</h3>
+                        <p class="stat-number" id="totalTasks">0</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>Completed Tasks</h3>
+                        <p class="stat-number" id="completedTasks">0</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>Pending Tasks</h3>
+                        <p class="stat-number" id="pendingTasks">0</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2016 ZavaWarehouse Management System. All rights reserved. | Version 1.0.2</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
