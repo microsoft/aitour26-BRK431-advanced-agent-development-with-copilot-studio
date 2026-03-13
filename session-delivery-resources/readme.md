@@ -14,7 +14,7 @@ Prior to delivering the workshop please:
 |-------------------|----------------------------------|-------------------|
 | Slide Deck      |  [Presentation](https://aka.ms/AAxv80q)  | Presentation slides for this session with presenter notes and embedded demo video |
 | Session Delivery Video     |  [Video](https://www.youtube.com/watch?v=FQfjBTR7nsQ) | Video recording of the full session delivery |
-| Environment Setup   |  [Setup Guide](/src/README.md) | Environment setup, solution import, and data import instructions |
+| Environment Setup   |  [Setup Guide](/src/readme.md) | Environment setup, solution import, and data import instructions |
 
 ## 🚀Get Started
 
