@@ -16,12 +16,12 @@ By the end of this session, learners understand how to:
 - Build agents that reason, plan, and act across complex workflows using generative orchestration.
 - Leverage multi-agent collaboration to drive real-time decision-making and automation.
 - Integrate advanced capabilities like deep knowledge grounding, enhanced analytics, and no-code testing.
-- Extend agents with pro-code tools such as Azure AI Foundry and Visual Studio for full-stack customization.
+- Extend agents with pro-code tools such as Microsoft Foundry and Visual Studio for full-stack customization.
 
 ### 💻 Technologies Used
 
 1. Microsoft Copilot Studio
-1. Azure AI Foundry
+1. Microsoft Foundry
 
 ### 🔗 Session Resources
 
